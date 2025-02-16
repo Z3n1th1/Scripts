@@ -1,3 +1,3 @@
 # Scripts
 
-Collect some useful scripts(maybe for penetest)
+Collect some useful scripts
