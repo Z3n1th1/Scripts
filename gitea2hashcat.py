@@ -1,4 +1,6 @@
 # This script is inspired by ippsec and his video(https://www.youtube.com/watch?v=aG_N2ZiCfxk&t=2419s&ab_channel=IppSec)
+# The output be like `developer:sha256:50000:i/PjRSt4VE+L7pQA1pNtNA==:5THTmJRhN7rqcO1qaApUOF7P8TEwnAvY8iXyhEBrfLyO/F2+8wvxaCYZJjRE6llM+1Y=` and you should only need the latter [username:hash].
+# Command:hashcat -m 10900 hash.txt /usr/share/wordlists/rockyou.txt
 
 import sqlite3
 import base64
